@@ -47,6 +47,15 @@ public class Wine {
 
     @Override
     public String toString() {
-        return "";
+        final String s =
+                "<table>\n" +
+                "  <tr>\n" +
+                "    <td>" + id + "</td>\n" +
+                "    <td>" + name + "</td>\n" +
+                "    <td>" + price + "</td>\n" +
+                "    <td>" + type + "</td>\n" +
+                "  </tr>\n" +
+                "</table>";
+        return s;
     }
 }
