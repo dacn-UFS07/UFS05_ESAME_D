@@ -47,11 +47,6 @@ public class Wine {
 
     @Override
     public String toString() {
-        return "Wine{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", type='" + type + '\'' +
-                '}';
+        return "";
     }
 }
